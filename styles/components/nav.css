@@ -1,0 +1,20 @@
+.site-nav {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+} 
+
+.site-nav__link {
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.site-nav__link_active {
+    color: crimson;
+}
+
+.site-nav__item {
+    display: inline-block;
+    margin-right: 54px;
+}

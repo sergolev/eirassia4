@@ -1,0 +1,81 @@
+.social-list{
+    display: flex;
+    margin-right: 74px;
+}
+
+.footer__socials {
+    margin-left: 74px; 
+}
+
+.social-list__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.social-list__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-list__item:last-child {
+    margin-right: 0px;
+}
+
+.social-list__link::before, .social-list__link::after {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    justify-content: center;
+    top: 0;
+    transition: .3s;
+}
+
+.social-list__link::after {
+    z-index: -1;
+    opacity: 0;
+}
+
+.social-list__link:hover::after {
+    z-index: 5;
+    opacity: 1;
+}
+
+.social-list__link:hover::before {
+    z-index: -1;
+    opacity: 0;
+}
+
+.social-list__link_telegramm::before {
+    content: url('../../img/t.png');
+}
+.social-list__link_vk::before {
+    content: url('../../img/vk.png');
+}
+
+.social-list__link_in::before {
+    content: url('../../img/in.png');
+}
+
+.social-list__link_fb::before {
+    content: url('../../img/f.png');
+}
+
+.social-list__link_telegramm::after {
+    content: url('../../img/t-light.png');
+}
+.social-list__link_vk::after {
+    content: url('../../img/vk-light.png');
+}
+
+.social-list__link_in::after {
+    content: url('../../img/in-light.png');
+}
+
+.social-list__link_fb::after {
+    content: url('../../img/f-light.png');
+}

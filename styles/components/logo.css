@@ -1,0 +1,10 @@
+.logo {
+    display: inline-block;
+    width: 85px;
+    height: 36px;
+    align-items: center;
+}
+
+.logo__link {
+    display: block;
+}

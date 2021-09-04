@@ -1,0 +1,43 @@
+.site-address {
+    font-style: normal;
+}
+
+.site-address__link, .site-adrees__schedule {
+    color: #fff;
+}
+
+.site-address__link {
+    font-size: 26px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.site-adrees__schedule {
+    width: max-content;
+    margin-left: auto;
+}
+
+.adress__title {
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.adress__title:hover + .adress__description {
+    opacity: 1;
+}
+
+.adress__description-conteiner {
+    padding: 19px;
+}
+
+.adress__description {
+    opacity: 0;
+    position: absolute;
+    background: url(../img/rectangle.jpg) center center /cover no-repeat;
+    height: 93px;
+    top: 55px;
+    right: 69px;
+    transition: .5s all ease-in-out;
+}
+

@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper_main {
+    background: url('../../img/hero-top.jpg') no-repeat top center, url('../../img/hero-bottom.jpg') no-repeat bottom center;
+    background-color: #001821;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.section__hero-title {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero__title-section {    
+    position: absolute;
+    width: 511px;
+    height: 197px;
+    left: 390px;
+    top: 196px;
+}    
+
+.hero__title {    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin-bottom: 27.5px;
+}
+
+.hero__subtitle-section {
+    position: absolute;
+    width: 196px;
+    height: 20px;
+    left: 390px;
+    top: 420.5px;
+}
+
+.hero__subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;    
+    display: flex;
+    align-items: center;    
+    color: #FFFFFF;
+    margin-bottom: 51.5px;
+}
+
+.btn {
+    border: 1px solid #F5170E;
+    box-sizing: border-box;
+    border-radius: 35px;
+    padding: 20px 60px;
+    background-color:#F5170E ;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 100px;
+}  
+
+.btn:hover{
+    transform: trаnslateY(-3px);
+    box-shadow: 0 7px o darkred;
+    height: 19px;
+    width: 88px;
+    margin-bottom: 100px;
+}
+
+.offers__title {
+    position: absolute;
+    margin-top: 220px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;            
+}
+
+.ofer__list{
+   margin-top: 50px;
+}
+
+.section__about{
+    margin-bottom: 106px;
+}
+
